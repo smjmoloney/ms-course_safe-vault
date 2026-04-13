@@ -1,0 +1,12 @@
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/bin/Debug/net10.0/SafeVaultShared.deps.json
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/bin/Debug/net10.0/SafeVaultShared.dll
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/bin/Debug/net10.0/SafeVaultShared.pdb
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.AssemblyInfoInputs.cache
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.AssemblyInfo.cs
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.csproj.CoreCompileInputs.cache
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.sourcelink.json
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.dll
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/refint/SafeVaultShared.dll
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/SafeVaultShared.pdb
+/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultShared/obj/Debug/net10.0/ref/SafeVaultShared.dll

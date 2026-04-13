@@ -1,0 +1,52 @@
+@page "/login"
+@inject SafeVaultClient.Services.AuthService AuthService
+@inject NavigationManager Nav
+
+<PageTitle>Login</PageTitle>
+
+<div class="justify-content-center mt-5 row">
+	<div class="col-md-4">
+		<div class="card">
+			<div class="card-header">
+				<h5 class="mb-0">Login</h5>
+			</div>
+			<div class="card-body">
+				<div class="mb-3">
+					<label class="form-label">Username</label>
+					<input class="form-control" @bind="username" placeholder="Enter username" />
+				</div>
+				<div class="mb-3">
+					<label class="form-label">Password</label>
+					<input class="form-control" type="password" @bind="password" placeholder="Enter password" />
+				</div>
+				<button class="w-100 btn btn-primary" @onclick="HandleLogin" disabled="@loading">
+					@(loading ? "Logging in..." : "Login")
+				</button>
+				@if (error is not null)
+				{
+					<p class="mt-3 text-danger">@error</p>
+				}
+			</div>
+		</div>
+	</div>
+</div>
+
+@code {
+	private string username = string.Empty;
+	private string password = string.Empty;
+	private string? error;
+	private bool loading;
+
+	private async Task HandleLogin()
+	{
+		error = null;
+		loading = true;
+		bool success = await AuthService.Login(username, password);
+		loading = false;
+
+		if (success)
+			Nav.NavigateTo("/");
+		else
+			error = "Invalid username or password.";
+	}
+}

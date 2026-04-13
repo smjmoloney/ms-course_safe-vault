@@ -8,18 +8,23 @@
 </div>
 
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
+    <nav class="flex-column nav">
+        <div class="px-3 nav-item">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                <span class="bi-house-door-fill-nav-menu bi" aria-hidden="true"></span> Home
             </NavLink>
             <NavLink class="nav-link" href="form">
-                <span class="bi bi-journal-text-nav-menu" aria-hidden="true"></span> Form
+                <span class="bi-journal-text-nav-menu bi" aria-hidden="true"></span> Manual Tests
             </NavLink>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="admin">
-                <span class="bi bi-person-fill-nav-menu" aria-hidden="true"></span> Admin
+        <div class="px-3 nav-item">
+            <NavLink class="nav-link" href="security-tests">
+                <span class="bi-shield-fill-nav-menu bi" aria-hidden="true"></span> Security Tests
+            </NavLink>
+        </div>
+        <div class="px-3 nav-item">
+            <NavLink class="nav-link" href="auth-tests">
+                <span class="bi-lock-fill-nav-menu bi" aria-hidden="true"></span> Login Tests
             </NavLink>
         </div>
 

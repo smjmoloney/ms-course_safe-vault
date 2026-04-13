@@ -4,6 +4,8 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net9.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -13,41 +15,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SafeVaultClient
 build_property.RootNamespace = SafeVaultClient
-build_property.ProjectDir = C:\Users\seanm\Desktop\Microsoft Full-Stack Developer\ms-course_safe-vault\SafeVaultClient\
+build_property.ProjectDir = /Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\seanm\Desktop\Microsoft Full-Stack Developer\ms-course_safe-vault\SafeVaultClient
+build_property.MSBuildProjectDirectory = /Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/App.razor]
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/Pages/Admin.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Pages/Admin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/Pages/Form.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybS5yYXpvcg==
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Pages/Form.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/_Imports.razor]
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Pages/SecurityTests.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VjdXJpdHlUZXN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-u95z2hfhuo
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ow8ihv5lxa
 
-[C:/Users/seanm/Desktop/Microsoft Full-Stack Developer/ms-course_safe-vault/SafeVaultClient/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-i9uezndenm
+[/Users/seanmoloney/Desktop/Microsoft/ms-course_safe-vault/SafeVaultClient/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-z4mwmrmo8x

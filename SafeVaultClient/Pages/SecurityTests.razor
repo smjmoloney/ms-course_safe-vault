@@ -1,0 +1,81 @@
+@page "/security-tests"
+
+<PageTitle>Security Tests</PageTitle>
+
+<h2>Security Validation Tests</h2>
+<p>The tests below simulate SQL injection and XSS attacks against the input validation logic.
+	Click <strong>Run
+	Tests</strong> to verify that all malicious inputs are blocked.</p>
+
+	<button class="mb-3 btn btn-primary" @onclick="RunTests">Run Tests</button>
+
+	@if (results.Count > 0)
+	{
+		<table class="table table-bordered">
+			<thead class="table-dark">
+				<tr>
+					<th>Type</th>
+					<th>Input Attempt</th>
+					<th>Result</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var r in results)
+				{
+					<tr>
+						<td>@r.Type</td>
+						<td><code>@r.Input</code></td>
+						<td>
+							@if (r.Blocked)
+							{
+								<span class="bg-success badge">PASS</span>
+							}
+							else
+							{
+								<span class="bg-danger badge">FAIL</span>
+							}
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+
+		<p>
+			<strong>@results.Count(r => r.Blocked) / @results.Count</strong> attacks blocked.
+		</p>
+	}
+
+@code {
+	private List<TestResult> results = new();
+
+	private void RunTests()
+	{
+		results.Clear();
+
+		var sqlInjectionAttempts = new[]
+		{
+			"admin' OR '1'='1",
+			"'; DROP TABLE Users; --",
+			"' UNION SELECT username, password FROM Users --",
+			"admin'--",
+			"1; SELECT * FROM Users"
+		};
+
+		var xssAttempts = new[]
+		{
+			"<script>alert('xss')</script>",
+			"<img src=x onerror=alert('xss')>",
+			"javascript:alert('xss')",
+			"<body onload=alert('xss')>",
+			"'\"><script>document.cookie</script>"
+		};
+
+		foreach (var input in sqlInjectionAttempts)
+			results.Add(new TestResult("SQL Injection", input, !SafeVaultShared.InputValidation.IsValidInput(input)));
+
+		foreach (var input in xssAttempts)
+			results.Add(new TestResult("XSS", input, !SafeVaultShared.InputValidation.IsValidInput(input)));
+	}
+
+	private record TestResult(string Type, string Input, bool Blocked);
+}
