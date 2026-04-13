@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafeVaultServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1892f7306fdf5780ff561664af0b031fead1d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcfe078df6bdbb49cfd61a84b7aa7729119e55a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafeVaultServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafeVaultServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
